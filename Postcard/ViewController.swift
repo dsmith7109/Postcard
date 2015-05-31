@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
-        messageLabel.textColor = UIColor.redColor()
+        messageLabel.textColor = UIColor.redColor()     //set the text colour to red
         
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()    //makes the keyboard go away
